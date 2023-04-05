@@ -2378,3 +2378,6 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
+@media only screen and (max-width: 600px) {
+  .wpb_wrapper p{ text-align : left !important }
+}

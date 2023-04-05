@@ -951,38 +951,3 @@ textarea {
 }
 
 /*# sourceMappingURL=base.css.map */
-.container {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: min-content minmax(min-content, 1fr);
-}
-
-.biggest {
-  height: 500px;
-  width: 100%;
-  background-color: teal;
-  grid-row: 1/3;
-}
-
-.inside1 {
-  height: 30px;
-  width: 100%;
-  background: deeppink;
-  margin: 20px;
-}
-.inside2 {
-  height: 30px;
-  width: 100%;
-  background: forestgreen;
-  margin: 20px;
-}
-
-@media (max-width: 600px){ /* example of mobile */
-  .container{
-    grid-template-columns: 1fr; /* reset to one column. Better than doing this is to put the two-column line in a min-width: 600px query and go mobile-first, but for the sake of clarity I'll overwrite it here */
-  }
-  
-  .biggest{
-    grid-row: 2/3;
-  }
-}
