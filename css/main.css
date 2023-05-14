@@ -1296,7 +1296,7 @@ input::-moz-focus-inner {
 .home-content__main {
   max-width: 1400px;
   padding-top: 15rem;
-  position: absolute;
+  position: relative;
   overflow-y: scroll;
   overflow-x: hidden;
 }
