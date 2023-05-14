@@ -1297,8 +1297,7 @@ input::-moz-focus-inner {
   max-width: 1400px;
   padding-top: 15rem;
   position: relative;
-  overflow-y: scroll;
-  overflow-x: scroll;
+  overflow: hidden;
 }
 
 .home-content__text p {
